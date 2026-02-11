@@ -8,4 +8,5 @@
   `((gxc: "libtermbox"
           "-cc-options" ,(string-append "-I" project-dir)
           "-ld-options" "")
-    "termbox"))
+    "termbox"
+    "draw"))

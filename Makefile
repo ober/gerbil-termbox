@@ -8,7 +8,7 @@ clean:
 	gerbil clean
 
 test: build
-	gerbil build --test
+	gerbil test
 
 install: build
 	mkdir -p $(PREFIX)/lib/$(PACKAGE) $(PREFIX)/lib/static
